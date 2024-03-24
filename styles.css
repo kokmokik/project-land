@@ -1,0 +1,91 @@
+body{
+    width: 1300px;
+    margin: 0;
+    margin: auto;
+    
+}
+
+.blue{
+    background-color: #1f2937;
+    color: #fff;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+   }
+
+.h-links-container{
+ display: flex;
+ justify-content: space-between;
+ gap: 20px;
+}
+.h-logo{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 30px;
+}
+
+.heroimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    gap: 30px;
+}
+button {
+    margin-bottom: 80px;
+    margin-top: 0;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 0;
+    border-radius: 7px;
+    color: #fff;
+    font-size: large;
+
+}
+
+.mid-section{ 
+    background-color: #aeb1b9;
+    color:  #fff;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-basis: 1300px;
+}
+
+.ri{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.images-holder{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+}
+
+.imag{
+   box-sizing: border-box;
+   width: 150px;
+   height: 150px;
+   border-color:0;
+   border-radius: 10px;
+   flex-shrink: 0;
+   background-color:gray;
+   margin-bottom: 10px;
+}
+
