@@ -45,7 +45,7 @@ body{
     border-radius: 10px;
     gap: 30px;
 }
-button {
+.but1 {
     margin-bottom: 80px;
     margin-top: 0;
     padding: 10px;
@@ -53,7 +53,7 @@ button {
     border: 0;
     border-radius: 7px;
     color: #fff;
-    font-size: large;
+    
 
 }
 
@@ -103,20 +103,73 @@ button {
 
 .qoute{
     background-color: #e5e7eb;
+    padding-bottom:35px;
 }
 .main-text{
     display: flex;
     justify-content: center;
    padding-left: 150px;
    padding-right: 150px;
-   padding-top: 150px;
+   padding-top: 130px;
    font-size: 36px;
    font-family: monospace;
    
 }
 
 .name {
-  margin-left: 1000px;
-  font-size: 30px;
+ 
+  font-size: 22px;
  font-family:sans-serif;
+ margin-top: 30px;
+ margin-left: 1000px;
+
+}
+.white{
+    background-color: white;
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 40px;
+    color: #fff;
+    padding-left: 130px;
+    padding-right: 130px;
+    gap:100px;
+}
+
+.signup{
+  margin-left:50px;
+  height: 40px;
+  color: #fff;
+  background-color: cornflowerblue;
+  border-color: #fff;
+  border-radius: 10px;
+  margin-top:35px;
+  font-size: 17px;
+}
+
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.h4p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.copyright{
+    display: flex;
+    background-color: #1f2937;
+    color: #fff;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
