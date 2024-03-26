@@ -173,3 +173,12 @@ h4{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.signup:hover{
+    background-color: white;
+    color: #1f2937;
+}
+.but1:hover{
+    background-color: white;
+    color: #1f2937;
+}
