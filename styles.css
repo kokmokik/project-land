@@ -2,7 +2,7 @@ body{
     width: 1300px;
     margin: 0;
     margin: auto;
-    
+    background-color: black;
 }
 
 .blue{
@@ -58,8 +58,8 @@ button {
 }
 
 .mid-section{ 
-    background-color: #aeb1b9;
-    color:  #fff;
+    background-color: white;
+    color: black;
     padding-left: 200px;
     padding-right: 200px;
     flex-basis: 1300px;
@@ -75,7 +75,7 @@ button {
 .images-holder{
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 96px;
     justify-content: center;
 }
 
@@ -90,3 +90,33 @@ button {
    margin-bottom: 10px;
 }
 
+.description-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lol{
+    margin-bottom: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.qoute{
+    background-color: #e5e7eb;
+}
+.main-text{
+    display: flex;
+    justify-content: center;
+   padding-left: 150px;
+   padding-right: 150px;
+   padding-top: 150px;
+   font-size: 36px;
+   font-family: monospace;
+   
+}
+
+.name {
+  margin-left: 1000px;
+  font-size: 30px;
+ font-family:sans-serif;
+}
